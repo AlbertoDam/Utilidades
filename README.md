@@ -1,22 +1,22 @@
 # Repositorio creado con utilidades y comandos frecuentemente usados.
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
-### Índice
+## Índice
 
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 
 <ol>
   <li> <a href = "#token"> Clonar repositorio con Personal Token (PT) </a> </li>
@@ -26,6 +26,8 @@
   <li> <a href = "#pull"> Descargar cambios </a> </li>
   <li> <a href = "#log"> Mostrar logs de los push realizados con su ID </a> </li>
 </ol>
+
+
 
 <br>
 <br>
