@@ -2,6 +2,22 @@
 
 ### Índice
 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 <ol>
   <ul> <a href = "#token"> Clonar repositorio con Personal Token (PT) </a> </ul>
   <ul> <a href = "#add"> Añadir cambios localmente </a> </ul>
@@ -12,7 +28,21 @@
 
 </ol>
 
-
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
 
 <br> <br>
 
