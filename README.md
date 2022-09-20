@@ -1,4 +1,4 @@
-# Repositorio creado con utilidades y comandos frecuentemente usados.
+# Repositorio creado con utilidades y comandos frecuentemente usados en Github.
 <br>
 <br>
 <br>
