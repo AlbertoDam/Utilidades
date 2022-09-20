@@ -19,13 +19,12 @@
 <br>
 
 <ol>
-  <ul> <a href = "#token"> Clonar repositorio con Personal Token (PT) </a> </ul>
-  <ul> <a href = "#add"> Añadir cambios localmente </a> </ul>
-  <ul> <a href = "#commit"> Commitear cambios </a> </ul>
-  <ul> <a href = "#push"> Subir cambios </a> </ul>
-  <ul> <a href = "#pull"> Descargar cambios </a> </ul>
-  <ul> <a href = "#log"> Mostrar logs de los push realizados con su ID </a> </ul>
-
+  <li> <a href = "#token"> Clonar repositorio con Personal Token (PT) </a> </li>
+  <li> <a href = "#add"> Añadir cambios localmente </a> </li>
+  <li> <a href = "#commit"> Commitear cambios </a> </li>
+  <li> <a href = "#push"> Subir cambios </a> </li>
+  <li> <a href = "#pull"> Descargar cambios </a> </li>
+  <li> <a href = "#log"> Mostrar logs de los push realizados con su ID </a> </li>
 </ol>
 
 <br>
