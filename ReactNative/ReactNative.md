@@ -15,7 +15,7 @@
 <ol>
   <li> <a href = "#Tab-Navigation"> Tab-Navigation </a> </li>
   <li> <a href = "#Icons"> Icons </a> </li>
-  <li> <a href = "#commit"> Commitear cambios </a> </li>
+  <li> <a href = "#Navigate"> Stack navigation y UseNavigate </a> </li>
   <li> <a href = "#push"> Subir cambios </a> </li>
   <li> <a href = "#pull"> Descargar cambios </a> </li>
   <li> <a href = "#log"> Mostrar logs de los push realizados con su ID </a> </li>
@@ -81,15 +81,24 @@ iconFontNames: ['MaterialCommunityIcons.ttf', ‘Ionicons.ttf’ ]
 apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle")
 ~~~
 
-<span id="commit">
+<span id="Navigate">
 
-### Commitear cambios
+### UseNavigate y Stack
 
+Navegacion:
+~~~
+npm install @react-navigation/native
+~~~
+~~~
+npm install react-native-screens react-native-safe-area-context
 ~~~
 
-git commit -m "Comentario"
+Stack Navigation:
 
 ~~~
+npm install @react-navigation/native-stack
+~~~
+
 
 <span id="push">
 
