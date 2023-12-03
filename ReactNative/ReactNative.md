@@ -17,7 +17,7 @@
   <li> <a href = "#Icons"> Icons </a> </li>
   <li> <a href = "#Navigate"> Stack navigation y UseNavigate </a> </li>
   <li> <a href = "#Async"> Async Storage </a> </li>
-  <li> <a href = "#pull"> Descargar cambios </a> </li>
+  <li> <a href = "#Web"> WebView </a> </li>
   <li> <a href = "#log"> Mostrar logs de los push realizados con su ID </a> </li>
 </ol>
 
@@ -108,14 +108,17 @@ npm install @react-navigation/native-stack
 npm install @react-native-async-storage/async-storage
 ~~~
 
-<span id="pull">
+<span id="Web">
 
-### Descargar cambios
+### WewView
 
 ~~~
-
-git pull
-
+npm install --save react-native-webview
+~~~
+Hay que agregar dos propiedades en android/gradle.properties:
+~~~
+android.useAndroidX=true
+android.enableJetifier=true
 ~~~
 
 <span id="log">
