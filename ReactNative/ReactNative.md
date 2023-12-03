@@ -16,7 +16,7 @@
   <li> <a href = "#Tab-Navigation"> Tab-Navigation </a> </li>
   <li> <a href = "#Icons"> Icons </a> </li>
   <li> <a href = "#Navigate"> Stack navigation y UseNavigate </a> </li>
-  <li> <a href = "#push"> Subir cambios </a> </li>
+  <li> <a href = "#Async"> Async Storage </a> </li>
   <li> <a href = "#pull"> Descargar cambios </a> </li>
   <li> <a href = "#log"> Mostrar logs de los push realizados con su ID </a> </li>
 </ol>
@@ -100,14 +100,12 @@ npm install @react-navigation/native-stack
 ~~~
 
 
-<span id="push">
+<span id="Async">
 
-### Subir cambios
+### Async Storage
 
 ~~~
-
-git push
-
+npm install @react-native-async-storage/async-storage
 ~~~
 
 <span id="pull">
