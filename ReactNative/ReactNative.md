@@ -69,15 +69,10 @@ android/build.gradle ) la línea:
 ~~~
 apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle")
 ~~~
-
-<p>
-  Si en lugar de todo el conjunto queremos un subgrupo ( que es lo recomendable ) ,
+Si en lugar de todo el conjunto queremos un subgrupo ( que es lo recomendable ) ,
 agregamos encima de la línea anterior, los que queremos:
-</p>
 ~~~
-project.ext.vectoricons = [
-iconFontNames: ['MaterialCommunityIcons.ttf', ‘Ionicons.ttf’ ]
-]
+project.ext.vectoricons = [iconFontNames: ['MaterialCommunityIcons.ttf', ‘Ionicons.ttf’ ]]
 apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle")
 ~~~
 
