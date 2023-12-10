@@ -19,7 +19,7 @@
   <li> <a href = "#Navigate"> Stack navigation y UseNavigate </a> </li>
   <li> <a href = "#Async"> Async Storage </a> </li>
   <li> <a href = "#Web"> WebView </a> </li>
-  <li> <a href = "#log"> Mostrar logs de los push realizados con su ID </a> </li>
+  <li> <a href = "#drawer"> Drawer Navigation </a> </li>
 </ol>
 
 
@@ -135,6 +135,48 @@ android.enableJetifier=true
 ~~~
 <hr>
 
-<span id="log">
+<span id="drawer">
 
-### Mostrar logs de los push realizados con su ID
+### Drawer Navigation (side menu).
+
+~~~
+npm install @react-navigation/native
+npm install react-native-screens react-native-safe-area-context
+~~~
+
+Y luego modificar el fichero: android/app/src/main/java/nuestropackage/MainActivity.java
+añadiendo:
+
+~~~
+import android.os.Bundle;
+public class MainActivity extends ReactActivity {
+ @Override
+ protected void onCreate(Bundle savedInstanceState) {
+ super.onCreate(null);
+ }
+}
+~~~
+
+despues instalar:
+
+~~~
+npm install @react-navigation/drawer
+npm install react-native-gesture-handler react-native-reanimated
+~~~
+
+Y añadir import EN LA PRIMERA LINEA DEL ARCHIVO DEL DRAWER
+
+~~~
+import 'react-native-gesture-handler';
+~~~
+
+Si aún así falla añadir en babel.config.js dentro de modules.export:
+
+~~~
+plugins: ['react-native-reanimated/plugin']
+~~~
+
+
+
+
+
