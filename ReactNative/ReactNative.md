@@ -13,6 +13,7 @@
 
 
 <ol>
+   <li> <a href = "#Create"> Crear Proyecto React TS </a> </li>
   <li> <a href = "#Tab-Navigation"> Tab-Navigation </a> </li>
   <li> <a href = "#Icons"> Icons </a> </li>
   <li> <a href = "#Navigate"> Stack navigation y UseNavigate </a> </li>
@@ -41,6 +42,15 @@
 
 <br> <br>
 
+<span id="Create">
+
+### Crear Proyecto ReactNative TS 
+
+~~~
+
+npx react-native init NombreApp --template react-native-template-typescript
+~~~
+
 <span id="Tab-Navigation">
 
 ### Tab-Navigation. 
@@ -50,6 +60,7 @@
 npm install @react-navigation/bottom-tabs
 
 ~~~
+
 
 <span id="icons">
 
