@@ -51,6 +51,8 @@
 npx react-native init NombreApp --template react-native-template-typescript
 ~~~
 
+<hr>
+
 <span id="Tab-Navigation">
 
 ### Tab-Navigation. 
@@ -61,6 +63,7 @@ npm install @react-navigation/bottom-tabs
 
 ~~~
 
+<hr>
 
 <span id="icons">
 
@@ -87,6 +90,8 @@ project.ext.vectoricons = [iconFontNames: ['MaterialCommunityIcons.ttf', ‘Ioni
 apply from: file("../../node_modules/react-native-vector-icons/fonts.gradle")
 ~~~
 
+<hr>
+
 <span id="Navigate">
 
 ### UseNavigate y Stack
@@ -105,6 +110,7 @@ Stack Navigation:
 npm install @react-navigation/native-stack
 ~~~
 
+<hr>
 
 <span id="Async">
 
@@ -113,6 +119,7 @@ npm install @react-navigation/native-stack
 ~~~
 npm install @react-native-async-storage/async-storage
 ~~~
+<hr>
 
 <span id="Web">
 
@@ -126,6 +133,7 @@ Hay que agregar dos propiedades en android/gradle.properties:
 android.useAndroidX=true
 android.enableJetifier=true
 ~~~
+<hr>
 
 <span id="log">
 
